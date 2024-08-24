@@ -2,7 +2,7 @@ services:
  - type: web
    name: roproxy-lite
    env: go
-   repo: https://github.com/halffalse/roproxy-lite.git
+   repo: https://github.com/oysoo131/roproxy-lite.git
    buildCommand: go build -tags netgo -ldflags '-s -w' -o app
    startCommand: ./app
    envVars:
